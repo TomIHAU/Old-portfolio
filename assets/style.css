@@ -1,0 +1,104 @@
+:root {
+    --blue: #041fb6;
+    --offwhite: #e1e1e1;
+    --contrasthover: #a50606;
+    --navtext: #1cc6fa;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    padding: 20px;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+    color: var(--navtext);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+color: var(--contrasthover);
+}
+
+li {
+    padding-left: 70px;
+}
+h1{
+    padding: 15px;
+}
+header p{
+    line-height: 20px;
+}
+body {
+    color: var(--blue);
+    background-color: var(--offwhite);
+}
+
+header,footer {
+    text-align: center;
+}
+
+footer {
+    color: black;
+}
+img {
+    border: 3px solid var(--contrasthover); 
+}
+.projectcards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.image{
+    align-items: center;
+    height: 200px;
+    width: 320px;
+}
+.card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    flex: 1 0 250px;
+    position: relative;
+    padding-bottom: 20px;
+
+}
+main{
+    margin: 20px;
+}
+.project:hover{
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: auto;
+    height: 200px;
+    width: 320px;
+    opacity: 0;
+    transition: .5s;
+    background-color: var(--navtext);
+}
+
+.card:hover .overlay {
+    opacity: .5;
+}
+
+.hovertext {
+    position: absolute;
+    color: var(--offwhite);
+    font-size: 20px;
+    text-align: center;
+}
