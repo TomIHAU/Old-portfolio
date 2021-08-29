@@ -1,21 +1,33 @@
 :root {
-    --blue: #041fb6;
+    --blue: blue;
     --offwhite: #e1e1e1;
-    --contrasthover: #a50606;
-    --navtext: #1cc6fa;
+    --contrasthover: red;
+    --navtext: green;
 }
 
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-nav {
+body {
+    color: var(--blue);
+    background-color: var(--offwhite);
+}
+
+header {
     padding: 20px;
-    background-color: black;
+    background-color: var(--blue);
+    color: black;
+}
+
+h1{
+    justify-content: flex-start;
+}
+
+nav{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
     flex-direction: row;
+    justify-content: flex-end;
 }
 
 nav a {
@@ -34,14 +46,19 @@ li {
 }
 h1{
     padding: 15px;
+
 }
-header p{
-    line-height: 20px;
+
+aside {
+    color: black;
+    display: block;
+    flex: .8 0 0;
+    background-color: var(--navtext);
+    padding: 30px 50px;
+    text-align: center;
 }
-body {
-    color: var(--blue);
-    background-color: var(--offwhite);
-}
+
+
 
 header,footer {
     text-align: center;
@@ -69,12 +86,14 @@ img {
 	align-items: center;
     position: relative;
     padding-bottom: 20px;
-    flex: 1 0 auto;
-}
-main{
-    margin: 20px;
 }
 
+main{
+}
+
+main p{
+    padding: 1em 0;
+}
 .overlay {
     position: absolute;
     top: 0;
@@ -101,17 +120,9 @@ main{
     text-align: center;
 }
 @media screen and (max-width: 768px) {
-    nav {
+    aside,
+    nav,
+    h1 {
         flex-direction: column;
     }
 }
-/* @media screen and (min-width: 961px) {
-    .card {
-      flex: 0 1 50%;
-    }
-}
-@media screen and (min-width: 1281px) {   
-    .card {
-      flex: 0 1 25%;
-    }
-  } */
