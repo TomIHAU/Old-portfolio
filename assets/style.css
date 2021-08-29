@@ -48,12 +48,12 @@ h1{
 }
 
 aside {
-    
-  position: relative;
-  float:left;
-  width:170px; 
-  top: 0px;
-  bottom: 0px;
+        
+    position: relative;
+    float:left;
+    width:25%; 
+    top: 0px;
+    bottom: 0px;
     color: black;
     background-color: var(--navtext);
     padding: 30px 50px;
@@ -61,11 +61,15 @@ aside {
     display: block;
 }
 .block{    
-    flex: 3;
+    flex: 1;
     display: block;
 }
+.layer{
+    display: block;
+    width:100%;
+}
 section{
-    display:inline;
+    display:block;
 }
 
 header,footer {
@@ -135,12 +139,17 @@ main p{
 @media screen and (max-width: 768px) {
     aside{
         float:none;
+        position: relative;
         display: flex;
         width: auto;
         top: auto;
         bottom: auto;
-        flex-direction: column;
         flex: 1;
+    }
+    aside,
+    main{
+        
+        flex-direction: column;
     }
     nav,
     h1 {
