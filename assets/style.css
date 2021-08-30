@@ -1,24 +1,25 @@
 :root {
-  --blue: blue;
+  --first: #949987;
   --offwhite: #e1e1e1;
-  --contrasthover: red;
-  --navtext: green;
+  --contrasthover: #a30a0a;
+  --navtext: #061125;
+  --text: #090a30;
 }
 
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  border: black solid 1px;
+  
 }
 
 body {
-  color: var(--blue);
-  background-color: var(--offwhite);
+  color: var(--first);
+  background-color: var(--navtext);
 }
 
 header {
   padding: 20px;
-  background-color: var(--blue);
-  color: black;
+  background-color: var(--first);
+  color: var(--text);
 }
 
 nav {
@@ -52,7 +53,7 @@ aside {
   width: 25%;
   top: 0px;
   bottom: 0px;
-  color: black;
+  color: var(--first);
   background-color: var(--navtext);
   padding: 30px 50px;
   text-align: center;
@@ -80,8 +81,9 @@ footer {
 }
 
 footer {
-  color: black;
-  padding-bottom: 10px;
+  color: var(--first);
+  margin-top: 10;
+  padding-bottom: 15px;
 }
 
 img {
@@ -96,8 +98,10 @@ img {
 
 .image {
   align-items: center;
+  width: 320px;
+  height: 200px;
+  width:100%;
   height: 100%;
-  width: 100%;
 }
 
 .card {
@@ -139,6 +143,7 @@ aside p {
 }
 
 .details{
+    margin: auto;
     padding: 10px;
     line-height: 20px;
 }
