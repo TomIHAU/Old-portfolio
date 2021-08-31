@@ -121,9 +121,9 @@ main {
   flex-wrap: wrap;
 }
 #port{ 
-    max-height: 300px;
-    width:auto;
-}
+    max-height: 200px;
+    width: 133px;
+  }
 
 main section {
   display: block;
@@ -188,6 +188,10 @@ aside p {
     top: auto;
     bottom: auto;
     flex: 1;
+  }
+  #port{
+    order:1;
+    display:block;
   }
   nav,
   h1,
