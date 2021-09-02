@@ -19,15 +19,12 @@ header {
   padding: 20px;
   background-color: var(--first);
   color: var(--text);
+  margin-bottom: 10px;
 }
 
 header,
 footer {
   text-align: center;
-}
-
-h1 {
-  padding: 15px;
 }
 
 nav {
@@ -51,9 +48,11 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
+
 main section {
   display: block;
 }
+
 aside {
   position: relative;
   float: left;
@@ -67,9 +66,14 @@ aside {
   display: block;
 }
 
-aside p {
+aside div h2 {
+  font-size: 20px;
+}
+
+aside div p {
   padding: 1em 0;
 }
+
 #port {
   max-height: 200px;
   width: 133px;
@@ -89,6 +93,7 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
 }
+
 img {
   border: 3px solid var(--contrasthover);
 }
@@ -144,7 +149,7 @@ img {
   line-height: 20px;
 }
 
-.About {
+#About {
   padding: 15px;
   font-size: 22px;
   position: relative;
@@ -157,7 +162,7 @@ img {
   flex: auto;
   justify-content: space-evenly;
 }
-.contactH {
+#Contact {
   font-size: 20px;
 }
 
@@ -186,8 +191,14 @@ footer {
     flex: 1;
   }
   #port {
-    order: 1;
-    display: block;
+    position: absolute;
+    opacity: 0.3;
+    top: -10px;
+    border: none;
+  }
+  aside {
+    display: flex;
+    width: auto;
   }
 
   nav,
