@@ -1,12 +1,9 @@
 # Portfolio
 https://tomihau.github.io/Portfolio/
 
-Second week boot camp assignment.
-Creating a Portfolio to show the my work. Which at the moment is limited. 
-Will update with more projects as they are completed.
+Current portfolio. will add more in the future, watch this space/
+A Portfolio to show the my work. Which at the moment is still very limited. 
 
 
 
-![image](https://user-images.githubusercontent.com/88224502/131772439-5dbd9736-8a14-4a4b-8612-2843758b873a.png)
-
-![image](https://user-images.githubusercontent.com/88224502/131772588-9ad11963-ccdf-4f68-95f5-b67070649bf3.png)
+![image](https://user-images.githubusercontent.com/88224502/137275267-6aecc067-0781-4f3f-98a4-d061ab030b1a.png)
