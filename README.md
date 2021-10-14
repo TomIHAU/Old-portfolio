@@ -1,7 +1,7 @@
 # Portfolio
 https://tomihau.github.io/Portfolio/
 
-Current portfolio. will add more in the future, watch this space.\n
+Current portfolio. will add more in the future, watch this space.
 
 
 A Portfolio to show the my work. Which at the moment is still very limited. 
